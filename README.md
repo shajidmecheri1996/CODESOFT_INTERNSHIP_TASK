@@ -175,3 +175,57 @@ Example results:
 ## 🏆 Conclusion
 The Iris Flower Classification project demonstrates how to solve a **multiclass classification problem** using simple yet effective machine learning techniques.  
 It is a fundamental dataset for learning and practicing supervised classification.
+
+
+# 📈 Task 4 – Sales Prediction Using Python
+
+## 📌 Problem Statement
+Sales prediction involves forecasting the **amount of a product that customers will purchase**, considering various factors such as:
+- Advertising expenditure  
+- Target audience segmentation  
+- Advertising platform selection  
+
+In businesses that offer products or services, the role of a Data Scientist is crucial for predicting future sales.  
+By leveraging machine learning techniques, sales prediction enables companies to **optimize advertising strategies** and **maximize revenue potential**.
+
+---
+
+## ⚙️ Tools & Libraries
+- Python  
+- Pandas, NumPy  
+- Matplotlib, Seaborn (data visualization)  
+- Scikit-learn (machine learning models)  
+
+---
+
+## 🚀 Approach
+1. **Data Collection & Cleaning**  
+   - Load dataset (sales & advertisement spending).  
+   - Handle missing values and convert categorical data if needed.  
+
+2. **Exploratory Data Analysis (EDA)**  
+   - Visualize relationships between advertising budget and sales.  
+   - Identify correlations among features.  
+
+3. **Feature Engineering**  
+   - Create meaningful features (e.g., total advertising spend, ROI-related features).  
+
+4. **Model Building**  
+   - Train regression models such as Linear Regression, Random Forest Regressor, Gradient Boosting.  
+   - Compare their performance.  
+
+5. **Evaluation**  
+   - Metrics: R² Score, Mean Squared Error (MSE), Mean Absolute Error (MAE).  
+
+---
+
+## 📊 Sample Output
+- Input: TV Advertising = \$250, Radio = \$50, Newspaper = \$30  
+- Predicted Sales: **22.3 units**  
+
+---
+
+## 🏆 Conclusion
+This project demonstrates how machine learning can be applied to **forecast sales** based on advertising and other business factors.  
+The insights gained from this prediction model help businesses **allocate resources efficiently** and **make data-driven marketing decisions**.
+
