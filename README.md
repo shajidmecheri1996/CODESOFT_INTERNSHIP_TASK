@@ -118,3 +118,60 @@ This project shows how **regression techniques** can be applied in machine learn
 It provides valuable insights into the factors that affect how movies are rated by users and critics.
 
 
+# 🌸 Task 3 – Iris Flower Classification
+
+## 📌 Problem Statement
+The **Iris flower dataset** consists of three species:
+- Setosa  
+- Versicolor  
+- Virginica  
+
+These species can be distinguished based on their **sepal and petal measurements** (length and width).  
+
+The objective is to train a **machine learning model** that learns from these measurements and accurately classifies iris flowers into their respective species.  
+This dataset is widely used as an **introductory classification problem** in machine learning.
+
+---
+
+## ⚙️ Tools & Libraries
+- Python  
+- Pandas, NumPy  
+- Matplotlib, Seaborn (visualization)  
+- Scikit-learn (machine learning models)  
+
+---
+
+## 🚀 Approach
+1. **Data Exploration**  
+   - Load the Iris dataset.  
+   - Visualize the relationships between features (pair plots, histograms).  
+
+2. **Data Preprocessing**  
+   - Check for missing values (Iris dataset is clean).  
+   - Split dataset into training and testing sets.  
+
+3. **Model Building**  
+   - Train models such as Logistic Regression, Decision Tree, KNN, and Random Forest.  
+   - Compare their performance.  
+
+4. **Evaluation**  
+   - Evaluate using accuracy score, confusion matrix, and classification report.  
+
+---
+
+## 📊 Sample Visualizations
+- Pair plot showing species separability  
+- Boxplots of petal/sepal measurements by species  
+
+---
+
+## 📸 Output
+Example results:  
+- Logistic Regression Accuracy: **96%**  
+- Random Forest Accuracy: **97%**  
+
+---
+
+## 🏆 Conclusion
+The Iris Flower Classification project demonstrates how to solve a **multiclass classification problem** using simple yet effective machine learning techniques.  
+It is a fundamental dataset for learning and practicing supervised classification.
